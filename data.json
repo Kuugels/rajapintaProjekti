@@ -1,0 +1,44 @@
+{
+  "albums": [
+    {
+      "artist": "Turmion Kätilöt",
+      "album": "Dance Panique",
+      "release-date": "17-3-2017",
+      "songs": [
+        {
+          "song1": "Dance Panique",
+          "song2": "Veren maku",
+          "song3": "Surutulitus",
+          "song4": "Kyynelten tanssi",
+          "song5": "Uhriveri",
+          "song6": "Vihko",
+          "song7": "Pienet pirut",
+          "song8": "Viha",
+          "song9": "Kuoleman marssi",
+          "song10": "To Be Contiuned, kohtaus 3"
+        }
+      ],
+      "album-art": "image1.jpg"
+    },
+    {
+      "artist": "Insomnium",
+      "album": "Shadows of the Dying Sun",
+      "release-date": "25-4-2014",
+      "songs": [
+        {
+          "song1": "The Primeval Dark",
+          "song2": "While We Sleep",
+          "song3": "Revelation",
+          "song4": "Black heart Rebellion",
+          "song5": "Lose to Night",
+          "song6": "Collapsing Worlds",
+          "song7": "The River",
+          "song8": "Ephemeral",
+          "song9": "The Promethean Song",
+          "song10": "Shadows of the Dying Sun"
+        }
+      ],
+      "album-art": "image1.jpg"
+    }
+  ]
+}
