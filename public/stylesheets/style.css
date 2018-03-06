@@ -9,8 +9,8 @@ a {
   color: #00B7FF;
 }
 
-#apustaja {
-  background-image: url("/images/kuve.jpg");
-  height: 700px;
-  width: 700px;
+#albumi {
+  background-image: url("/images/bad_album_cover_01.jpg");
+  height: 400px;
+  width: 400px;
 }

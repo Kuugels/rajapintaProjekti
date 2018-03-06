@@ -1,6 +1,7 @@
 {
   "albums": [
     {
+      "albumID": 1,
       "artist": "Turmion Kätilöt",
       "album": "Dance Panique",
       "release-date": "17-3-2017",
@@ -21,6 +22,7 @@
       "album-art": "image1.jpg"
     },
     {
+      "albumID": 2,
       "artist": "Insomnium",
       "album": "Shadows of the Dying Sun",
       "release-date": "25-4-2014",
@@ -38,7 +40,134 @@
           "song10": "Shadows of the Dying Sun"
         }
       ],
-      "album-art": "image1.jpg"
+      "album-art": "image2.jpg"
+    },
+    {
+      "albumID": 3,
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "release-date": "24-9-1991",
+      "songs": [
+        {
+          "song1": "Smells Like Teen Spirit",
+          "song2": "In Bloom",
+          "song3": "Come as You Are",
+          "song4": "Breed",
+          "song5": "Lithium",
+          "song6": "Polly",
+          "song7": "Territorial Pissings",
+          "song8": "Drain You",
+          "song9": "Lounge Act",
+          "song10": "Stay Away",
+          "song11": "On a Plain",
+          "song12": "Something in the Way"
+        }
+      ],
+      "album-art": "image3.jpg"
+    },
+    {
+      "albumID": 4,
+      "artist": "Burzum",
+      "album": "Filosofem",
+      "release-date": "1-1-1996",
+      "songs": [
+        {
+          "song1": "Burzum",
+          "song2": "Jesu død",
+          "song3": "Beholding the Daughters of the Firmament",
+          "song4": "Decrepitude I",
+          "song5": "Rundtgåing av den transcendentale egenhetens støtte",
+          "song6": "Decrepitude II"
+        }
+      ],
+      "album-art": "image4.jpg"
+    },
+    {
+      "albumID": 5,
+      "artist": "Ulver",
+      "album": "Shadows of the Sun",
+      "release-date": "1-10-2007",
+      "songs": [
+        {
+          "song1": "Eos",
+          "song2": "All the Love",
+          "song3": "Like Music",
+          "song4": "Vigil",
+          "song5": "Shadows of the Sun",
+          "song6": "Let the Children Go",
+          "song7": "Solitude",
+          "song8": "Funebre",
+          "song9": "What Happened?"
+        }
+      ],
+      "album-art": "image5.jpg"
+    },
+    {
+      "albumID": 6,
+      "artist": "Jari Sillanpää",
+      "album": "Jari Sillanpää",
+      "release-date": "1-1-1996",
+      "songs": [
+        {
+          "song1": "Punainen taivas",
+          "song2": "Satulinna",
+          "song3": "Oot täydellinen",
+          "song4": "Olen luonasi aina",
+          "song5": "Kirjoitettu tähtiin",
+          "song6": "Haavoitettu",
+          "song7": "Siellä missä nyt oot",
+          "song8": "Kulku ihmisen",
+          "song9": "Kaduilla tuulee",
+          "song10": "Sun luo tuulina käyn",
+          "song11": "Tässä kaikki on",
+          "song12": "Pariisi-Helsinki"
+        }
+      ],
+      "album-art": "image6.jpg"
+    },
+    {
+      "albumID": 7,
+      "artist": "Rick Astley",
+      "album": "Whenever You Need Somebody",
+      "release-date": "16-11-1987",
+      "songs": [
+        {
+          "song1": "Never Gonna Give You Up",
+          "song2": "Whenever You Need Somebody",
+          "song3": "Together Forever",
+          "song4": "It Would Take a Strong Strong Man",
+          "song5": "The Love Has Gone",
+          "song6": "Don't Say Goodbye",
+          "song7": "Slipping Away",
+          "song8": "No More Looking for Love",
+          "song9": "You Move Me",
+          "song10": "When I Fall in Love"
+        }
+      ],
+      "album-art": "image7.jpg"
+    },
+    {
+      "albumID": 8,
+      "artist": "Matti ja Teppo",
+      "album": "Ota kiinni",
+      "release-date": "1-1-1975",
+      "songs": [
+        {
+          "song1": "Ahaa ahaa",
+          "song2": "Ei se ollut mitään",
+          "song3": "Hei hei",
+          "song4": "Jätän tämän maan",
+          "song5": "Kaikki on hyvin",
+          "song6": "Kauan eläköön maa",
+          "song7": "Kaukana niin olet",
+          "song8": "Kuuntelethan mua",
+          "song9": "Nyt tunnen mitä rakkaus on",
+          "song10": "Ota kiinni mistä saat",
+          "song11": "Valvoin koko yön",
+          "song12": "Vuodet mennä saa"
+        }
+      ],
+      "album-art": "image8.jpg"
     }
   ]
 }
