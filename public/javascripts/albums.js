@@ -30,7 +30,7 @@ function createAlbums() {
   var albums = "";
   console.log(data.length);
   for (var i = 0; i < data.length; i++) {
-    albums += "<div class='col-sm-3' id='col" + i + "'>" + createAlbumContent(i) + "</div>";
+    albums += "<div class='col-sm-3' id='col" + i + "'>" + createAlbumContent(data[i]) + "</div>";
   }
 
   $("#row").html(albums);
@@ -41,10 +41,10 @@ function createAlbums() {
 
 }
 
-function createAlbumContent(i) {
-  var cont = "<ul class ='jotai'>" +
-  "<li class='item1'>Albumi"+ i +"</li>" +
-  "<li class='item2'>toka item</li>" +
+function createAlbumContent(data) {
+  var cont = "<ul class ='list-group'>" +
+  "<li class='list-group-item'>Albumi"+ data.album +"</li>" +
+  "<li class='list-group-item'>toka item</li>" +
   "</ul>";
   return cont;
 }
