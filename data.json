@@ -4,7 +4,7 @@
       "albumID": 1,
       "artist": "Turmion Kätilöt",
       "album": "Dance Panique",
-      "release-date": "17-3-2017",
+      "release_date": "17-3-2017",
       "songs": [
           "Dance Panique",
           "Veren maku",
@@ -17,13 +17,13 @@
           "Kuoleman marssi",
           "To Be Contiuned, kohtaus 3"
       ],
-      "album-art": "image1.jpg"
+      "album_art": "turmis.jpg"
     },
     {
       "albumID": 2,
       "artist": "Insomnium",
       "album": "Shadows of the Dying Sun",
-      "release-date": "25-4-2014",
+      "release_date": "25-4-2014",
       "songs": [
           "The Primeval Dark",
           "While We Sleep",
@@ -36,13 +36,13 @@
           "The Promethean Song",
           "Shadows of the Dying Sun"
       ],
-      "album-art": "image2.jpg"
+      "album_art": "insomnikka.jpg"
     },
     {
       "albumID": 3,
       "artist": "Nirvana",
       "album": "Nevermind",
-      "release-date": "24-9-1991",
+      "release_date": "24-9-1991",
       "songs": [
           "Smells Like Teen Spirit",
           "In Bloom",
@@ -57,13 +57,13 @@
           "On a Plain",
           "Something in the Way"
       ],
-      "album-art": "image3.jpg"
+      "album_art": "nirvana.jpg"
     },
     {
       "albumID": 4,
       "artist": "Burzum",
       "album": "Filosofem",
-      "release-date": "1-1-1996",
+      "release_date": "1-1-1996",
       "songs": [
           "Burzum",
           "Jesu død",
@@ -72,13 +72,13 @@
           "Rundtgåing av den transcendentale egenhetens støtte",
           "Decrepitude II"
       ],
-      "album-art": "image4.jpg"
+      "album_art": "burzum.jpg"
     },
     {
       "albumID": 5,
       "artist": "Ulver",
       "album": "Shadows of the Sun",
-      "release-date": "1-10-2007",
+      "release_date": "1-10-2007",
       "songs": [
           "Eos",
           "All the Love",
@@ -90,13 +90,13 @@
           "Funebre",
           "What Happened?"
       ],
-      "album-art": "image5.jpg"
+      "album_art": "ulver.jpg"
     },
     {
       "albumID": 6,
       "artist": "Jari Sillanpää",
       "album": "Jari Sillanpää",
-      "release-date": "1-1-1996",
+      "release_date": "1-1-1996",
       "songs": [
           "Punainen taivas",
           "Satulinna",
@@ -111,13 +111,13 @@
           "Tässä kaikki on",
           "Pariisi-Helsinki"
       ],
-      "album-art": "image6.jpg"
+      "album_art": "siltsu.jpg"
     },
     {
       "albumID": 7,
       "artist": "Rick Astley",
       "album": "Whenever You Need Somebody",
-      "release-date": "16-11-1987",
+      "release_date": "16-11-1987",
       "songs": [
           "Never Gonna Give You Up",
           "Whenever You Need Somebody",
@@ -130,13 +130,13 @@
           "You Move Me",
           "When I Fall in Love"
       ],
-      "album-art": "image7.jpg"
+      "album_art": "rickastley.jpg"
     },
     {
       "albumID": 8,
       "artist": "Matti ja Teppo",
       "album": "Ota kiinni",
-      "release-date": "1-1-1975",
+      "release_date": "1-1-1975",
       "songs": [
           "Ahaa ahaa",
           "Ei se ollut mitään",
@@ -151,7 +151,7 @@
           "Valvoin koko yön",
           "Vuodet mennä saa"
       ],
-      "album-art": "image8.jpg"
+      "album_art": "mattijatepa.jpg"
     }
   ]
 }

@@ -1,30 +1,41 @@
 
+var data;
+
 $(document).ready(function() {
   console.log("Document loaded...");
-  createAlbums();
+  data = loadAlbumData();
+  setTimeout(function(){
+    createAlbums();
+  }, 1000);
 });
 
 
 function loadAlbumData() {
-  var albums;
-  $.getJSON( "data.json", function( data ) {
-    albums = data;
-  });
+  var albums = [];
+  $.getJSON( "data.json", function() {
+    console.log("Album data retrieved...");
+  })
+    .done(function(data) {
+      console.log(data);
+      $.each( data.albums, function( i, item ) {
+        albums.push(item);
+      });
+    });
+  console.log(albums);
   return albums;
 }
 
 function createAlbums() {
-  var data = loadAlbumData();
 
   var albums = "";
-
-  for (var i = 1; i < 10; i++) {
+  console.log(data.length);
+  for (var i = 0; i < data.length; i++) {
     albums += "<div class='col-sm-3' id='col" + i + "'>" + createAlbumContent(i) + "</div>";
   }
 
   $("#row").html(albums);
-  for (var i = 1; i < data.albums.length; i++) {
-    $("#col"+i).css("background-image", "url('./images/kuve.jpg')");
+  for (var i = 0; i < data.length; i++) {
+    $("#col"+i).css("background-image", "url('./images/" + data[i].album_art + "')");
     $(".col-sm-3").css("height", $(".col-sm-3").width() + "px");
   }
 
