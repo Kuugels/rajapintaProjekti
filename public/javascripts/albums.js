@@ -31,6 +31,9 @@ function createAlbums() {
 }
 
 function createAlbumContent(i) {
-  var cont = "test";
+  var cont = "<ul class ='jotai'>" +
+  "<li class='item1'>Albumi"+ i +"</li>" +
+  "<li class='item2'>toka item</li>" +
+  "</ul>";
   return cont;
 }
