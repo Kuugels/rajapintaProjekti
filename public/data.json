@@ -17,7 +17,7 @@
           "Kuoleman marssi",
           "To Be Contiuned, kohtaus 3"
       ],
-      "album-art": "image1.jpg"
+      "album-art": "turmis.jpg"
     },
     {
       "albumID": 2,
@@ -36,7 +36,7 @@
           "The Promethean Song",
           "Shadows of the Dying Sun"
       ],
-      "album-art": "image2.jpg"
+      "album-art": "insomnikka.jpg"
     },
     {
       "albumID": 3,
@@ -72,7 +72,7 @@
           "Rundtgåing av den transcendentale egenhetens støtte",
           "Decrepitude II"
       ],
-      "album-art": "image4.jpg"
+      "album-art": "burzum.jpg"
     },
     {
       "albumID": 5,
@@ -90,7 +90,7 @@
           "Funebre",
           "What Happened?"
       ],
-      "album-art": "image5.jpg"
+      "album-art": "ulver.jpg"
     },
     {
       "albumID": 6,
@@ -111,7 +111,7 @@
           "Tässä kaikki on",
           "Pariisi-Helsinki"
       ],
-      "album-art": "image6.jpg"
+      "album-art": "siltsu.jpg"
     },
     {
       "albumID": 7,
@@ -130,7 +130,7 @@
           "You Move Me",
           "When I Fall in Love"
       ],
-      "album-art": "image7.jpg"
+      "album-art": "rickastley.jpg"
     },
     {
       "albumID": 8,
@@ -151,7 +151,7 @@
           "Valvoin koko yön",
           "Vuodet mennä saa"
       ],
-      "album-art": "image8.jpg"
+      "album-art": "mattijatepa.jpg"
     }
   ]
 }
