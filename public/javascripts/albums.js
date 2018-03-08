@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 });
 
-
+// Loads album data from database
 function loadAlbumData() {
   var albums = [];
   $.getJSON( "data.json", function() {
@@ -25,8 +25,8 @@ function loadAlbumData() {
   return albums;
 }
 
+// Creates content for the site
 function createAlbums() {
-
   var albums = "";
   console.log(data.length);
   for (var i = 0; i < data.length; i++) {
@@ -38,13 +38,20 @@ function createAlbums() {
     $("#col"+i).css("background-image", "url('./images/" + data[i].album_art + "')");
     $(".col-sm-3").css("height", $(".col-sm-3").width() + "px");
   }
-
 }
 
+<<<<<<< HEAD
 function createAlbumContent(data) {
   var cont = "<ul class ='list-group'>" +
   "<li class='list-group-item'>Albumi"+ data.album +"</li>" +
   "<li class='list-group-item'>toka item</li>" +
+=======
+// Creates content inside album div
+function createAlbumContent(i) {
+  var cont = "<ul class ='jotai'>" +
+  "<li class='item1'>Albumi"+ i +"</li>" +
+  "<li class='item2'>toka item</li>" +
+>>>>>>> 9a6fd62020a66ac76a5246a351adda8a60d926e6
   "</ul>";
   return cont;
 }
