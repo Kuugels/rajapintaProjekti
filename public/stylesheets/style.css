@@ -26,10 +26,6 @@ a {
 filter: grayscale(1) blur(5px);
 }
 
-.square {
-
-}
-
 .col-sm-3:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
@@ -54,6 +50,6 @@ border-style: hidden;
 
 }
 
-.list-group:hover {
+.col-sm-3:hover .list-group {
   opacity: 1;
 }
