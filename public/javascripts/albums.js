@@ -11,7 +11,7 @@ $(document).ready(function() {
 // Loads album data from database
 function loadAlbumData() {
   var albums = [];
-  var url = "http://localhost:3000/albums";
+  var url = "https://albuminfo.herokuapp.com/albums";
   $.getJSON( url, function() {
     console.log("Album data retrieved...");
   })
