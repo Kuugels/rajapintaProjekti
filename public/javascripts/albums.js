@@ -40,8 +40,8 @@ function createAlbums() {
 
 function createAlbumContent(data) {
   var cont = "<ul class ='list-group'>" +
-  "<li class='list-group-item data'><h4>"+ data.artist +"</h4></li>" +
-  "<li class='list-group-item data'><h4>" + data.album + "</h4></li>" +
+  "<li class='list-group-item'><h4>"+ data.artist +"</h4></li>" +
+  "<li class='list-group-item'><h4>" + data.album + "</h4></li>" +
   "<li class='list-group-item data'><h4>" + data.release_date + "</h4></li>";
 
   for (var i = 0; i < data.songs.length; i++) {
@@ -50,4 +50,24 @@ function createAlbumContent(data) {
 
   cont += "</ul>";
   return cont;
+}
+
+function searchArtist() {
+  var albums = [];
+  var cont = "";
+  var url = "https://albuminfo.herokuapp.com/albums/artist/" + $("#artist").val();
+  $.getJSON( url, function() {
+    console.log("Searching...");
+  })
+    .done(function(data) {
+      console.log(data);
+      $.each(data, function( i, item ) {
+        cont += "<div class='col-sm-3' id='col" + i + "'>" + createAlbumContent(item) + "</div>";
+      });
+      $("#row").html(cont);
+      for (var i = 0; i < data.length; i++) {
+        $("#col"+i).css("background-image", "url('./images/" + data[i].album_art + "')");
+        $(".col-sm-3").css("height", $(".col-sm-3").width() + "px");
+      }
+    });
 }
