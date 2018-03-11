@@ -5,7 +5,7 @@ $(document).ready(function() {
   data = loadAlbumData();
   setTimeout(function(){
     createAlbums();
-  }, 2000);
+  }, 1000);
 });
 
 // Loads album data from database
