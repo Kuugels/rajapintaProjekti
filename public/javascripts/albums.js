@@ -40,8 +40,14 @@ function createAlbums() {
 
 function createAlbumContent(data) {
   var cont = "<ul class ='list-group'>" +
-  "<li class='list-group-item'>Albumi"+ data.album +"</li>" +
-  "<li class='list-group-item'>toka item</li>" +
-  "</ul>";
+  "<li class='list-group-item data'><h4>"+ data.artist +"</h4></li>" +
+  "<li class='list-group-item data'><h4>" + data.album + "</h4></li>" +
+  "<li class='list-group-item data'><h4>" + data.release_date + "</h4></li>";
+
+  for (var i = 0; i < data.songs.length; i++) {
+    cont += "<li class='list-group-item songs'>" + data.songs[i] + "</li>";
+  }
+
+  cont += "</ul>";
   return cont;
 }
