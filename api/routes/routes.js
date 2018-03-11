@@ -12,4 +12,8 @@ module.exports = function(app) {
     .get(albumList.read_album)
     .put(albumList.update_album)
     .delete(albumList.delete_album);
+
+
+  app.route('/albums/artist/:artist')
+    .get(albumList.find_artist)
 };
