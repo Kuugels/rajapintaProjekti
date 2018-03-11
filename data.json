@@ -213,6 +213,27 @@
           "All Apologies"
       ],
       "album_art": "nirvana1.jpg"
+    },
+    {
+      "albumID": 12,
+      "artist": "Kirka",
+      "album": "Rautaa ja kettinkiä",
+      "release_date": "1-1-1973",
+      "songs": [
+          "Yeah Yeah Yeah",
+          "Daniel",
+          "Häikäisy oot (vaan)",
+          "Hyvä ihminen",
+          "Gypsy",
+          "Kun luovun",
+          "Varrella virran",
+          "Soitellaan",
+          "Ihmeihminen",
+          "Siskosein",
+          "Pyörivä talo",
+          "Tulkaa tömistämään"
+      ],
+      "album_art": "kirka.jpg"
     }
   ]
 }
