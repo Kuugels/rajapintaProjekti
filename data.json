@@ -172,6 +172,47 @@
           "Kärsi"
       ],
       "album_art": "turmis1.jpg"
+    },
+    {
+      "albumID": 10,
+      "artist": "David Bowie",
+      "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "release_date": "16-6-1972",
+      "songs": [
+          "Five Years",
+          "Soul Love",
+          "Moonage Daydream",
+          "Starman",
+          "It Ain't Easy",
+          "Lady Stardust",
+          "Star",
+          "Hang On to Yourself",
+          "Ziggy Stardust",
+          "Suffragette City",
+          "Rock 'n' Roll Suicide"
+      ],
+      "album_art": "bowie.jpg"
+    },
+    {
+      "albumID": 11,
+      "artist": "Nirvana",
+      "album": "In Utero",
+      "release_date": "21-9-1993",
+      "songs": [
+          "Serve the Servants",
+          "Scentless Apprentice",
+          "Heart-Shaped Box",
+          "Rape Me",
+          "Frances Farmer Will Have Her Revenge on Seattle",
+          "Dumb",
+          "Very Ape",
+          "Milk It",
+          "Pennyroyal Tea",
+          "Radio Friendly Unit Shifter",
+          "Tourette's",
+          "All Apologies",
+      ],
+      "album_art": "nirvana1.jpg"
     }
   ]
 }
