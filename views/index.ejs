@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <% include partials/header %>
 
-  </head>
-  <body>
+<head>
+  <% include partials/header %>
 
+</head>
 
-    <div class="container-fluid">
-      <div class="page-header">
-        persus
-          <input type="text" class="form-control" id="txt"></input>
-         <button type="button" class="btn btn-primary" onclick="myFunction()">Search</button>
-       </div>
+<body>
 
-      <div class="row" id="row">
-        test
+  <div class="container-fluid">
+    <div class="page-header">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for artists">
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default">Search</button>
+        </span>
       </div>
     </div>
-  </body>
+
+    <div class="row" id="row">
+      test
+    </div>
+  </div>
+</body>
+
 </html>
