@@ -152,6 +152,26 @@
           "Vuodet mennä saa"
       ],
       "album_art": "mattijatepa.jpg"
+    },
+    {
+      "albumID": 9,
+      "artist": "Turmion Kätilöt",
+      "album": "Hoitovirhe",
+      "release_date": "20-5-2004",
+      "songs": [
+          "Teurastaja",
+          "Lepositeet",
+          "Paha ihminen",
+          "Verta ja lihaa",
+          "Pimeyden morsian",
+          "Seinä",
+          "Liitto",
+          "4 käskyä",
+          "Rautaketju",
+          "Osasto-A",
+          "Kärsi"
+      ],
+      "album_art": "turmis1.jpg"
     }
   ]
 }

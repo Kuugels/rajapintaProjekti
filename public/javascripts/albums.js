@@ -1,4 +1,3 @@
-
 var data;
 
 $(document).ready(function() {
@@ -6,29 +5,28 @@ $(document).ready(function() {
   data = loadAlbumData();
   setTimeout(function(){
     createAlbums();
-  }, 1000);
+  }, 2000);
 });
 
 // Loads album data from database
 function loadAlbumData() {
   var albums = [];
-  $.getJSON( "data.json", function() {
+  var url = "http://localhost:3000/albums";
+  $.getJSON( url, function() {
     console.log("Album data retrieved...");
   })
     .done(function(data) {
       console.log(data);
-      $.each( data.albums, function( i, item ) {
+      $.each(data, function( i, item ) {
         albums.push(item);
       });
     });
-  console.log(albums);
   return albums;
 }
 
 // Creates content for the site
 function createAlbums() {
   var albums = "";
-  console.log(data.length);
   for (var i = 0; i < data.length; i++) {
     albums += "<div class='col-sm-3' id='col" + i + "'>" + createAlbumContent(data[i]) + "</div>";
   }
