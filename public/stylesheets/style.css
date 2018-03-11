@@ -89,7 +89,9 @@ h4{
   transition-delay: 0.2s;
   transition-duration: 0.7s;
   opacity: 0;
+  padding: 10px 0px 10px 0px;
 }
+
 
 .list-group-item {
 background-color: transparent;
@@ -101,6 +103,7 @@ padding-bottom: 2px;
 
 .data {
   font-weight: bold;
+  margin-bottom: 15px;
 }
 .songs {
   font-style: italic;
