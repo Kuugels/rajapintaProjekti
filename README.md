@@ -1,8 +1,7 @@
 # rajapintaProjekti
 Avoimet rajapinnat ja avoin data kurssin projekti
 
-Linkki sivuun: https:\\albuminfo.herokuapp.com
-
+[Linkki sivulle](https:\\albuminfo.herokuapp.com "Albuminfo sivu")
 
 | **GET** | Albums |
 | :--- | :--- |
