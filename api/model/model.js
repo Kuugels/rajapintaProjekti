@@ -2,6 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+// Schema tietokantaa varten
 var AlbumSchema = new Schema({
   albumID: Number,
   artist: String,

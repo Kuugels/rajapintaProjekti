@@ -8,7 +8,7 @@ $(document).ready(function() {
   }, 1000);
 });
 
-// Loads album data from database
+// Hakee albumien tiedot tietokannasta
 function loadAlbumData() {
   var albums = [];
   var url = "https://albuminfo.herokuapp.com/albums";
@@ -24,7 +24,7 @@ function loadAlbumData() {
   return albums;
 }
 
-// Creates content for the site
+// Luo jokaiselle albumille columnin sekä sisällön
 function createAlbums() {
   var albums = "";
   for (var i = 0; i < data.length; i++) {
@@ -38,6 +38,7 @@ function createAlbums() {
   }
 }
 
+// Luo sisällön albumiin
 function createAlbumContent(data) {
   var cont = "<ul class ='list-group'>" +
   "<li class='list-group-item'><h4>"+ data.artist +"</h4></li>" +
@@ -52,6 +53,7 @@ function createAlbumContent(data) {
   return cont;
 }
 
+// Etsii artisteja tietokannasta
 function searchArtist() {
   var albums = [];
   var cont = "";
