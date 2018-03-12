@@ -1,6 +1,11 @@
 # rajapintaProjekti
 Avoimet rajapinnat ja avoin data kurssin projekti
 
+Käytetyt tekniikat:
+- Frontend: jQuery, Bootstrap, CSS, HTML5
+- Backend: Node.js
+- Tietokanta: MondoDB
+
 [Linkki sivulle](https:\\albuminfo.herokuapp.com "Albuminfo sivu")
 
 | **GET** | Albums |
