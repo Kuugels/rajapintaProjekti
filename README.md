@@ -36,5 +36,7 @@ Example API call
  - ```https:\\albuminfo.herokuapp.com/albums/artist/Burzum```
 
 Result:
-```[{"songs":["Burzum","Jesu død","Beholding the Daughters of the Firmament","Decrepitude I","Rundtgåing av den transcendentale     egenhetens støtte","Decrepitude II"],"_id":"5aa25cc6734d1d3717fd6bc6","albumID":4,"artist":"Burzum","album":"Filosofem","release_date":"1-1-1996","album_art":"burzum.jpg"}]
+
+```
+[{"songs":["Burzum","Jesu død","Beholding the Daughters of the Firmament","Decrepitude I","Rundtgåing av den transcendentale     egenhetens støtte","Decrepitude II"],"_id":"5aa25cc6734d1d3717fd6bc6","albumID":4,"artist":"Burzum","album":"Filosofem","release_date":"1-1-1996","album_art":"burzum.jpg"}]
   ```
