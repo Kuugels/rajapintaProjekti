@@ -6,7 +6,7 @@ Käytetyt tekniikat:
 - Backend: Node.js
 - Tietokanta: MongoDB
 
-[Linkki sivulle](https:\\albuminfo.herokuapp.com "Albuminfo sivu")
+[Linkki sivulle](albuminfo.herokuapp.com "Albuminfo sivu")
 
 | **GET** | Albums |
 | :--- | :--- |
