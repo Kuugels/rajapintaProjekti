@@ -4,7 +4,7 @@ Avoimet rajapinnat ja avoin data kurssin projekti
 Käytetyt tekniikat:
 - Frontend: jQuery, Javascript, Bootstrap, CSS, HTML5
 - Backend: Node.js
-- Tietokanta: MondoDB
+- Tietokanta: MongoDB
 
 [Linkki sivulle](https:\\albuminfo.herokuapp.com "Albuminfo sivu")
 
