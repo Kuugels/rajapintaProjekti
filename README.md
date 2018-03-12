@@ -8,13 +8,25 @@ Avoimet rajapinnat ja avoin data kurssin projekti
 | Get album by ID | ```/albums/:albumId``` |
 | Get albums from artist | ```/albums/artist/:artist``` |
 
+| **POST** | Albums |
+| :--- | :--- |
+| Add new album |  ```/albums``` |
+
+| **PUT** | Albums |
+| :--- | :--- |
+| Update album |  ```/albums/:albumId``` |
+
+| **DELETE** | Albums |
+| :--- | :--- |
+| Delete album |  ```/albums/:albumId``` |
+
 **Data format**
 ```
 {
    songs: [String],
    _id: ID,
    albumID, number,
-    artist: String,
+   artist: String,
    release_date: String,
    album_art: String
 }
