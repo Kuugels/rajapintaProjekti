@@ -2,7 +2,7 @@
 Avoimet rajapinnat ja avoin data kurssin projekti
 
 Käytetyt tekniikat:
-- Frontend: jQuery, Bootstrap, CSS, HTML5
+- Frontend: jQuery, Javascript, Bootstrap, CSS, HTML5
 - Backend: Node.js
 - Tietokanta: MondoDB
 
